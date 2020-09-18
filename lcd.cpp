@@ -1,10 +1,12 @@
 #include<iostream>
-#define ROWS 7
-#define COLS 4
+#define ROWS 8
+#define COLS 5
 #define SPACE ' '
 #define HORIZONTAL '-'
 #define VERTICAL '|'
 using namespace std;
+
+// Adding some comments 
 
 void clear_array(char digit[ROWS][COLS]);
 void print_array(char digit[ROWS][COLS]);
